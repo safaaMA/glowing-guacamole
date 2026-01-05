@@ -103,17 +103,11 @@ h2
     flex-wrap: wrap;
 }
 
-.cards .red {
-  background-color: #1c1d4d;
+.cards .red ,.blue,.green {
+  background-color: #2db7ff;
 }
 
-.cards .blue {
-  background-color: #1c1d4d;
-}
 
-.cards .green {
-  background-color: #1c1d4d;
-}
 
 .cards .card {
     display: flex;
@@ -133,11 +127,11 @@ h2
  {
     font-size: 1em;
     font-weight: 700;
-    color: #d18519;
+    color: #ffffff;
 }
 .cards .card p.second-text {
     font-size: .7em;
-    color: #d2851e;
+    color: #ffffff;
 }
 
 .cards .card:hover {
